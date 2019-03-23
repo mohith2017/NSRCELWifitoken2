@@ -1,0 +1,40 @@
+<!--
+  Generated template for the TokenPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD3EGp3u7IHcw71v679W_ud4YMTAitY5Ig",
+    authDomain: "nsrcel-wifi-c4af7.firebaseapp.com",
+    databaseURL: "https://nsrcel-wifi-c4af7.firebaseio.com",
+    projectId: "nsrcel-wifi-c4af7",
+    storageBucket: "nsrcel-wifi-c4af7.appspot.com",
+    messagingSenderId: "1057401370292"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>token</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+
+<ion-content padding>
+Here is your token details:<br>
+
+Name: {{token2.name1}}
+<br> Token: <ion-label [(ngModel)] ="token1"></ion-label>
+
+
+
+</ion-content>

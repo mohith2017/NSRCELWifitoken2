@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>WIFI TOKEN</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+    <ion-col>
+      <ion-row>
+        <ion-img width="1000" height="200" src="assets/imgs/logo1.png"></ion-img>
+      </ion-row>
+
+      <ion-row>
+        <ion-list>
+        <ion-item>
+      <ion-label fixed>Username</ion-label>
+    <ion-input type="text" id="text2" [(ngModel)] = "value2" value=""></ion-input>
+       </ion-item>
+
+       <ion-item>
+      <ion-label fixed>Phone no</ion-label>
+        <ion-input type="number" id="number1" [(ngModel)] ="value1" value=""></ion-input>
+      </ion-item>
+    </ion-list>
+    </ion-row>
+
+      <ion-row>
+        <div text-center>
+        <button ion-button color="light" round (click)="onbuttonselected()">Done</button>
+      </div>
+      </ion-row>
+   <br><br>
+   <ion-row  (click)="ontextselected()">
+      <div text-center>
+       Guest?Click here
+ </div>
+   </ion-row>
+
+    </ion-col>
+  </ion-grid>
+
+
+
+
+</ion-content>

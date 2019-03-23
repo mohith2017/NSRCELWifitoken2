@@ -1,0 +1,7 @@
+{
+  "name": "Wifitoken1",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1057401370292",
+    "firebase_url": "https://nsrcel-wifi-c4af7.firebaseio.com",
+    "project_id": "nsrcel-wifi-c4af7",
+    "storage_bucket": "nsrcel-wifi-c4af7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057401370292:android:764d2cb7da3280eb",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057401370292-c6fg1jbd22gu7c6gv13ppthet2jo74jb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.ionic.starter",
+            "certificate_hash": "45298f3a08ed1f9d024964e65e58869409c9b092"
+          }
+        },
+        {
+          "client_id": "1057401370292-kk8dr2ard0opti2sgvpe0ncvm9qq5u3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBmyuLYabmGsk8lgd3RHEcpGjWQcaMM7U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057401370292-kk8dr2ard0opti2sgvpe0ncvm9qq5u3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
