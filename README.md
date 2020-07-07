@@ -1,5 +1,5 @@
 # NSRCELWifitoken2
-This is latest version of the web app being built for NSRCEL IIMB.
+This is latest version of the web app being built for NSRCEL IIMB using React JS.
 
 Goal: To work towards automating the process of manual token issuing using the latest web/app Technology and security[Authentication].
 
